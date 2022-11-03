@@ -1,0 +1,130 @@
+/* navbar */
+.navbar {
+    background-color:rgba(179, 157, 219, 0.9);
+    opacity:0.9;
+}
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium';
+    font-size:90px;
+    color:rgba(179, 157, 219, 0.8);
+    text-shadow: 4px 3px 3px rgb(253, 83, 151), 10px 9px 3px #ec912907;
+}
+.nav-link {
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:rgb(239, 246, 249);
+    text-shadow: 3px 3px 4px rgb(239, 246, 249) ;
+
+}
+.logo-navbar {
+    height: 47px;
+    padding-right:15px;
+
+}
+/* Content */
+#padding{
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
+h3 {
+    color: #AC7088;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: medium;
+    font-weight:bold;
+}
+
+#text1{
+    text-align: center;
+    padding-bottom: 50px;
+    color:rgba(188, 167, 182, 1);
+    font-weight:bold;
+}
+
+/* tentang about us */
+#text2{
+    text-align: justify;
+    color: rgba(82, 62, 45, 1);
+}
+.history{
+    padding-top: 150px;
+    color: rgba(82, 62, 45, 1);
+    font-weight: 600;
+}
+.title-services{
+    color: rgba(82, 62, 45, 1);
+    font-weight: 600;
+}
+#text3{
+    text-align: justify;
+    color: rgba(82, 62, 45, 1);
+}
+.sub {
+    color: rgba(82, 62, 45, 1);
+    font-weight: 600;
+}
+
+/* grid 2 */
+.row > div{  
+    padding: 10px;
+    padding-bottom: 0;
+}
+.row{
+    margin: 20px auto;
+    
+}
+#img{
+    height: 500px;
+}
+/* Content */
+h3 {
+    text-align: center;
+    padding-bottom: 12px;
+    color: #AC7088;
+}
+#last-row {
+    padding-bottom: 50px;
+}
+button {
+    color: white;
+    background-color: #f48fb1;
+    height: 30px;
+}
+
+/* footer contact */
+.image {
+    height: 25px;
+    padding-right: 5px;
+    
+}
+.image-logo {
+    height: 110px;
+}
+/* Footer */
+.page-footer{
+    background-color:rgba(180, 154, 165, 1);
+    height: 270px;
+    
+}
+.footer-copyright{
+    background-color:rgba(202, 202, 206, 0.808);
+}
+
+#copy {
+    padding-top: 13px;
+    text-align: center;
+}
+
+/* text footer */ 
+.footer-text {
+    font-weight:600;
+}
+.text {
+    color:#f48fb1 ;
+    text-shadow: 3px 2px 2px white;   
+}
+.text-a {
+    color:#f48fb1;
+    font-size:13px;
+    font-weight:550;
+}

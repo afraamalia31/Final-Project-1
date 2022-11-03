@@ -1,0 +1,157 @@
+.navbar {
+    background-color:rgba(179, 157, 219, 0.9);
+    opacity:0.9;
+}
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium';
+    font-size:90px;
+    color:rgba(179, 157, 219, 0.8);
+    text-shadow: 4px 3px 3px rgb(253, 83, 151), 10px 9px 3px #ec912907;
+}
+.nav-link {
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:rgb(239, 246, 249);
+    text-shadow: 3px 3px 4px rgb(239, 246, 249) ;
+
+}
+.logo-navbar {
+    height: 47px;
+    padding-right:15px;
+
+}
+
+/* content */
+#padding {
+    padding-bottom: 25px;
+}
+.content1{
+    background-color:rgba(182, 163, 182, 1);
+    padding-bottom: 20px;
+}
+
+.avia-slide-wrap{
+    padding-bottom: 20px;
+}
+
+.content2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#line {
+    background-size: cover;
+    height: 10vh;
+    width: 100%;
+    box-shadow: #a67c9e 0px 5px, #c48eb9f1 0px 10px, #e6b2ec 0px 15px;
+}
+.dokter-estetika{
+    padding-left: 14px;
+    color: #a67c9e;
+    font-weight: 400;
+}
+
+
+/* form */
+.form-label {
+    color:rgba(161, 136, 127, 0.8);
+    font-weight:600;
+    font-size: medium;
+}
+.btn {
+    color: rgba(252, 228, 236, 0.5);
+    margin-left: 320px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.btn:hover {
+    box-shadow: 2 10px 10px 0 #a67c9e inset, 10px 10px 10px 4px #f48fb1;
+}
+.text-contact{
+    padding-top: 18px;
+    font-weight: bold;
+    color: #ECCCB2;
+    
+}
+
+/* grid */
+.row > div{  
+    padding: 10px;
+    padding-bottom: 0;
+}
+.row{
+    margin: 20px auto;
+    padding-right: 30px;
+    padding-left: 10px;   
+}
+img{
+    height: 250px;
+}
+h6 {
+    color:#a67c9e;
+    font-weight:bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.baris2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 50;
+    
+    opacity:0.5;
+}
+.baris3{
+    color: #a67c9e;
+    font-weight:600;
+}
+
+h3 {
+    color: #AC7088;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: medium;
+    font-weight:bold;
+}
+.text-contact {
+    color: #AC7088;
+    font-size: medium;
+    font-weight:bold;
+}
+.text2-contact{
+    font-weight: 400;
+}
+/* footer contact */
+.image {
+    height: 25px;
+    padding-right: 5px;
+    
+}
+.image-logo {
+    height: 110px;
+}
+/* Footer */
+.page-footer{
+    background-color:rgba(180, 154, 165, 1);
+    height: 270px;
+    
+}
+.footer-copyright{
+    background-color:rgba(202, 202, 206, 0.808);
+}
+#copy {
+    padding-top: 13px;
+    text-align: center;
+}
+.text {
+    color:#f48fb1 ;
+    text-shadow: 3px 2px 2px white;   
+}
+.footer-text {
+    font-weight:600;
+}
+
+.text-a {
+    color:#f48fb1;
+    font-size:13px;
+    font-weight:550;
+}

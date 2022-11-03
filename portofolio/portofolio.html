@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="portofolio.css">
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title> RAY BEUATY CLINIC</title>
+  </head>
+  <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg" >
+  <div class="container mx-5">
+  <img src="../image/logo.png" alt="logo-ray-beauty" class="logo-navbar"> <!-- Sumber Gambar: pngegg.com-->
+  <a class="navbar-brand" href="#">RAY BEAUTY CLINIC</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+   </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        <a class="nav-link" href="../contact-us/contact-us.html"> Contact Us </a>
+        <a class="nav-link" href="../about-us/about-us.html"> About Us </a>
+        <a class="nav-link" href="portofolio.html"> Portfolio </a>
+        <a class="nav-link" href="../blog/blog.html"> Blog </a>
+        <a class="nav-link" href="../todos/todos.html">Todos</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- image thumbnail -->   
+<div data-rel="slideshow-1" class="avia-slide-wrap">
+    <img src="../image/landing2.jpg" alt="" width="100%" height="282" style="left: 0px;"> <!-- Sumber Gambar: Pinterest-->
+</div>
+
+<!-- content -->
+<div id="padding">
+<h3 class="pink lighten-5">Portfolio</h3>
+</div>
+<h4>Before Treatment and After Treatment</h4>
+<div class="row">
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto.jpg" alt=""  width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto2.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto3.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto4.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto5.jpg" alt=""  width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto6.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto9.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto10.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+</div>
+
+<div id="last-row">
+  <div class="row">
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto11.jpg" alt=""  width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto12.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto13.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+    <div class="col s3 l2">
+        <img id="img" src="../image/porto14.jpg" alt="" width="280px"> <!-- Sumber Gambar: Pinterest-->
+    </div>
+  </div>
+</div>
+
+<!-- banner -->
+<div id="padding">
+  <h3 class="pink lighten-5">Review</h3>
+</div>
+
+
+<!-- filter card categories -->
+<!-- Control buttons -->
+<div class="filter">
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">
+      Show all
+    </button>
+    <button class="btn" onclick="filterSelection('general')">
+      General
+    </button>
+    <button class="btn" onclick="filterSelection('artist')">Artist</button>
+    <button class="btn" onclick="filterSelection('actor')">Actor</button>
+    <button class="btn" onclick="filterSelection('idol')">Idol</button>
+  </div>
+
+  <!-- Multiple Categories -->
+  <div class="row row-cols-1 row-cols-md-4 g-3 m-3">
+    <div class="filterDiv general col">
+      <div class="card">
+        <a href=""
+          ><img
+            src="../image/general2.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Jannat Zaira</h5>
+          <p class="card-text"> Facial Reshaping :  Aesthetic Treatment </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv general col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/general3.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Ezaki Hikaru</h5>
+          <p class="card-text">Facial Reshaping :  Medical Treatment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv artist col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/artis3.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Iu</h5>
+          <p class="card-text">Ultimate Rejuvenation : Cream Program</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv general col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/general5.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Citra Kaira</h5>
+          <p class="card-text">Ultimate Rejuvenation : Aesthetic Treatment </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv idol col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/idol6.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Kim Hanbin</h5>
+          <p class="card-text">Ultimate Rejuvenation : Medical Treatment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv idol col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/idol5.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Haruto Watanabe</h5>
+          <p class="card-text">Body Aesthetic Center Acne : Cream Program</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv idol col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/idol1.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Song Mino</h5>
+          <p class="card-text">Body Aesthetic Center Acne : Aesthetic Treatment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv actor col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/aktor.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Park Jeongwoo</h5>
+          <p class="card-text">Body Aesthetic Center Acne : Medical Treatment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv idol col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/idol4.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Hamada Asahi</h5>
+          <p class="card-text">Body Aesthetic Center Acne & Facial Reshaping</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv actor col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/aktor3.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">So jongkie</h5>
+          <p class="card-text">Facial Reshaping & Ultimate Rejuvenation</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv general col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/general4.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Yoshinori</h5>
+          <p class="card-text">Ultimate Rejuvenation & Body Aesthetic Center Acne</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv actor col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/aktor1.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Che Eun-woo</h5>
+          <p class="card-text">Ultimate Rejuvenation : Medical Treatment </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv artist col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/artis5.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Kim Jisoo</h5>
+          <p class="card-text">Ultimate Rejuvenation & Facial Reshaping </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv artist col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/artis4.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Lalisa Manoban</h5>
+          <p class="card-text">Facial Reshaping & Body Aesthetic Center Acne</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv artist col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/artis2.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Park Rose</h5>
+          <p class="card-text">Body Aesthetic Center Acne : Medical Treatment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv actor col">
+      <div class="card">
+        <a href="">
+          <img
+            src="../image/aktor4.jpg"
+            class="card-img-top"
+            alt="picture"
+        /></a> <!-- Sumber Gambar: Pinterest-->
+        <div class="card-body">
+          <h5 class="card-title">Kim Junkyu</h5>
+          <p class="card-text">Facial Reshaping & Body Aesthetic Center Acne</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer deep-purple lighten-4">
+      <div class="row">
+        <div class="col s4 push-s1 my-3">
+          <p class="footer-text text">Ray Beuaty Clinic</p>
+          <img src="../image/logo.png" alt="logo-ray-beauty" class="image-logo"> <!-- Sumber Gambar: pngegg.com-->
+        </div>
+        <div class="col s3 push-s1 my-3">
+          <p class="footer-text text">Connet With Us</p>
+            <p><img src="../image/instagram.png" class="image"><a class="text-a" href="#">@RayBeauty</a></p> <!-- Sumber Gambar: pngegg.com-->
+            <p><img src="../image/youtube.png" class="image"><a class="text-a" href="#">Ray Beauty</a></p>   <!-- Sumber Gambar: pngegg.com-->
+            <p><img src="../image/twitter.png" class="image"><a class="text-a" href="#">Ray Beauty</a></p>   <!-- Sumber Gambar: pngegg.com-->
+        </div>
+        <div class="col s3 mx-4 my-3">
+          <p class="footer-text text">Working Hours</p>
+          <p  class="text-a">Monday to Friday: 8.00 to 17.00</p>
+          <p  class="text-a">Saturday to Sunday: 8.00 to 13.00</p>
+          <p  class="text-a">Public Holidays: closed</p>
+        </div>
+        <div class="col s3 my-3">
+            <p class="footer-text text">Center Address</p>
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.022047070653!2d106.77934811468593!3d-6.260825995468315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a8713ce207%3A0x2c3ea1f4a28bfac5!2sHacktiv8!5e0!3m2!1sid!2sid!4v1666020071382!5m2!1sid!2sid"
+                  width="100%"
+                  height="140"
+                  style="border: 2px solid #f4eff7; border-radius: 4px"        
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+      </div>
+    <div class="footer-copyright indigo lighten-5">
+      <div class="container footer"> 
+      <p id="copy" class="grey-text"> Ray Beauty © 2022. All Rights Reserved. Develop by Afra Amalia</p>
+      </div>
+    </div>
+</footer>
+  
+  <!-- filter card categories -->
+  <script>
+    filterSelection("all");
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    // Show filtered elements
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
+
+    // Hide elements that are not selected
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
